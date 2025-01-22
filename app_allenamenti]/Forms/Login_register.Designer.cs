@@ -55,7 +55,7 @@
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Location = new System.Drawing.Point(0, 1);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(532, 291);
@@ -70,9 +70,9 @@
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(2);
             this.tabPage1.Size = new System.Drawing.Size(524, 265);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Login";
@@ -94,7 +94,7 @@
             // 
             this.loginbtn.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.loginbtn.Location = new System.Drawing.Point(83, 197);
-            this.loginbtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.loginbtn.Margin = new System.Windows.Forms.Padding(2);
             this.loginbtn.Name = "loginbtn";
             this.loginbtn.Size = new System.Drawing.Size(358, 26);
             this.loginbtn.TabIndex = 4;
@@ -105,15 +105,16 @@
             // passwordlogin
             // 
             this.passwordlogin.Location = new System.Drawing.Point(83, 143);
-            this.passwordlogin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.passwordlogin.Margin = new System.Windows.Forms.Padding(2);
             this.passwordlogin.Name = "passwordlogin";
+            this.passwordlogin.PasswordChar = '*';
             this.passwordlogin.Size = new System.Drawing.Size(359, 20);
             this.passwordlogin.TabIndex = 3;
             // 
             // usernamelogin
             // 
             this.usernamelogin.Location = new System.Drawing.Point(83, 77);
-            this.usernamelogin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.usernamelogin.Margin = new System.Windows.Forms.Padding(2);
             this.usernamelogin.Name = "usernamelogin";
             this.usernamelogin.Size = new System.Drawing.Size(359, 20);
             this.usernamelogin.TabIndex = 2;
@@ -149,9 +150,9 @@
             this.tabPage2.Controls.Add(this.label5);
             this.tabPage2.Controls.Add(this.label4);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(2);
             this.tabPage2.Size = new System.Drawing.Size(524, 265);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Register";
@@ -161,7 +162,7 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(231, 171);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(82, 21);
             this.comboBox1.TabIndex = 9;
@@ -171,7 +172,7 @@
             // 
             this.registerbtn.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.registerbtn.Location = new System.Drawing.Point(91, 214);
-            this.registerbtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.registerbtn.Margin = new System.Windows.Forms.Padding(2);
             this.registerbtn.Name = "registerbtn";
             this.registerbtn.Size = new System.Drawing.Size(358, 26);
             this.registerbtn.TabIndex = 8;
@@ -182,7 +183,7 @@
             // passwordreg
             // 
             this.passwordreg.Location = new System.Drawing.Point(91, 126);
-            this.passwordreg.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.passwordreg.Margin = new System.Windows.Forms.Padding(2);
             this.passwordreg.Name = "passwordreg";
             this.passwordreg.Size = new System.Drawing.Size(359, 20);
             this.passwordreg.TabIndex = 5;
@@ -201,7 +202,7 @@
             // Usernamereg
             // 
             this.Usernamereg.Location = new System.Drawing.Point(91, 68);
-            this.Usernamereg.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Usernamereg.Margin = new System.Windows.Forms.Padding(2);
             this.Usernamereg.Name = "Usernamereg";
             this.Usernamereg.Size = new System.Drawing.Size(359, 20);
             this.Usernamereg.TabIndex = 3;
@@ -242,7 +243,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(533, 292);
             this.Controls.Add(this.tabControl1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Login_register";
             this.Text = "Register";
             this.tabControl1.ResumeLayout(false);

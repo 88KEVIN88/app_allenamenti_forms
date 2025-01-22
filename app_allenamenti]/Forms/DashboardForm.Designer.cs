@@ -78,6 +78,7 @@
             this.tabPage3.SuspendLayout();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.uprepetitions)).BeginInit();
+
             ((System.ComponentModel.ISupportInitialize)(this.upseries)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
