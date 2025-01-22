@@ -26,6 +26,27 @@ namespace app_allenamenti_.Forms
             LoadExerciseHistory();
 
         }
+        private void DashboardForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            try
+            {
+                using (var conn = Database.GetConnection())
+                {
+                    if (conn.State == ConnectionState.Open)
+                    {
+                        conn.Close(); 
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Errore durante la chiusura della connessione: {ex.Message}", "Errore", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+           
+            Application.Exit();
+        }
+
         private void Logoutbtn_Click(object sender, EventArgs e)
         {
             Logout();
@@ -58,6 +79,7 @@ namespace app_allenamenti_.Forms
             descritionscheda.Clear();
             foreach (ListViewItem item in newschedaesercizi.Items)
             {
+
                 item.Checked = false;
             }
         }
