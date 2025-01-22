@@ -95,14 +95,22 @@ namespace app_allenamenti_.Forms
             }
         }
 
-
         private void Logout()
         {
+            using (MySqlConnection conn = Database.GetConnection())
+            {
+                if (conn.State == ConnectionState.Open)
+                {
+                    conn.Close();
+                }
+            }
             Program.CurrentUserId = -1;
             Login_register loginForm = new Login_register();
             loginForm.Show();
             this.Close();
         }
+
+
         private List<int> GetSelectedExercises()
         {
             List<int> selectedExercises = new List<int>();
@@ -608,5 +616,9 @@ namespace app_allenamenti_.Forms
             }
         }
 
+        private void DashboardForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
