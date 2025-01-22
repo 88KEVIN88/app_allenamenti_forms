@@ -92,13 +92,14 @@
             // 
             // loginbtn
             // 
+            this.loginbtn.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.loginbtn.Location = new System.Drawing.Point(83, 197);
             this.loginbtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.loginbtn.Name = "loginbtn";
             this.loginbtn.Size = new System.Drawing.Size(358, 26);
             this.loginbtn.TabIndex = 4;
             this.loginbtn.Text = "Login";
-            this.loginbtn.UseVisualStyleBackColor = true;
+            this.loginbtn.UseVisualStyleBackColor = false;
             this.loginbtn.Click += new System.EventHandler(this.loginbtn_Click);
             // 
             // passwordlogin
@@ -168,13 +169,14 @@
             // 
             // registerbtn
             // 
+            this.registerbtn.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.registerbtn.Location = new System.Drawing.Point(91, 214);
             this.registerbtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.registerbtn.Name = "registerbtn";
             this.registerbtn.Size = new System.Drawing.Size(358, 26);
             this.registerbtn.TabIndex = 8;
             this.registerbtn.Text = "Register";
-            this.registerbtn.UseVisualStyleBackColor = true;
+            this.registerbtn.UseVisualStyleBackColor = false;
             this.registerbtn.Click += new System.EventHandler(this.registerbtn_Click);
             // 
             // passwordreg

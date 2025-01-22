@@ -33,6 +33,8 @@ namespace app_allenamenti_.Forms
         private void registrabtn_Click(object sender, EventArgs e)
         {
             LogExercise();
+            LoadData();
+            LoadExerciseHistory();
         }
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
@@ -41,10 +43,12 @@ namespace app_allenamenti_.Forms
         private void createschedabtn_Click(object sender, EventArgs e)
         {
            CreateScheda();
+           LoadSchede();
         }
         private void Addexercixes_Click(object sender, EventArgs e)
         {
             AddExercise();
+            LoadExercises();
         }
 
         //funzioni backend

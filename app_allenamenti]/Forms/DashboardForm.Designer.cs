@@ -90,6 +90,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.MediumBlue;
             this.label1.Location = new System.Drawing.Point(27, 30);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
@@ -113,7 +114,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
-            this.menuStrip1.Size = new System.Drawing.Size(1265, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1584, 24);
             this.menuStrip1.TabIndex = 6;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -141,13 +142,14 @@
             // 
             // registrabtn
             // 
+            this.registrabtn.BackColor = System.Drawing.Color.LightBlue;
             this.registrabtn.Location = new System.Drawing.Point(148, 291);
             this.registrabtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.registrabtn.Name = "registrabtn";
             this.registrabtn.Size = new System.Drawing.Size(291, 75);
             this.registrabtn.TabIndex = 21;
             this.registrabtn.Text = "Registra esercizi";
-            this.registrabtn.UseVisualStyleBackColor = true;
+            this.registrabtn.UseVisualStyleBackColor = false;
             this.registrabtn.Click += new System.EventHandler(this.registrabtn_Click);
             // 
             // textBoxRepCompleted
@@ -270,13 +272,14 @@
             // 
             // Addexercixes
             // 
+            this.Addexercixes.BackColor = System.Drawing.Color.YellowGreen;
             this.Addexercixes.Location = new System.Drawing.Point(437, 389);
             this.Addexercixes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Addexercixes.Name = "Addexercixes";
             this.Addexercixes.Size = new System.Drawing.Size(181, 137);
             this.Addexercixes.TabIndex = 17;
             this.Addexercixes.Text = "Aggiungi";
-            this.Addexercixes.UseVisualStyleBackColor = true;
+            this.Addexercixes.UseVisualStyleBackColor = false;
             this.Addexercixes.Click += new System.EventHandler(this.Addexercixes_Click);
             // 
             // uprepetitions
@@ -442,13 +445,15 @@
             // 
             // createschedabtn
             // 
+            this.createschedabtn.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.createschedabtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.createschedabtn.Location = new System.Drawing.Point(471, 336);
-            this.createschedabtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.createschedabtn.Margin = new System.Windows.Forms.Padding(2);
             this.createschedabtn.Name = "createschedabtn";
             this.createschedabtn.Size = new System.Drawing.Size(181, 195);
             this.createschedabtn.TabIndex = 6;
             this.createschedabtn.Text = "Crea scheda";
-            this.createschedabtn.UseVisualStyleBackColor = true;
+            this.createschedabtn.UseVisualStyleBackColor = false;
             this.createschedabtn.Click += new System.EventHandler(this.createschedabtn_Click);
             // 
             // newschedaesercizi
@@ -518,7 +523,7 @@
             this.tabControl2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(545, 572);
+            this.tabControl2.Size = new System.Drawing.Size(832, 582);
             this.tabControl2.TabIndex = 8;
             // 
             // tabPage4
@@ -529,7 +534,7 @@
             this.tabPage4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.tabPage4.Size = new System.Drawing.Size(537, 541);
+            this.tabPage4.Size = new System.Drawing.Size(824, 541);
             this.tabPage4.TabIndex = 0;
             this.tabPage4.Text = "Lista schede";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -540,7 +545,7 @@
             this.listviewschede.Location = new System.Drawing.Point(3, 3);
             this.listviewschede.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.listviewschede.Name = "listviewschede";
-            this.listviewschede.Size = new System.Drawing.Size(534, 542);
+            this.listviewschede.Size = new System.Drawing.Size(820, 542);
             this.listviewschede.TabIndex = 0;
             this.listviewschede.UseCompatibleStateImageBehavior = false;
             this.listviewschede.View = System.Windows.Forms.View.List;
@@ -552,7 +557,7 @@
             this.tabPage5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.tabPage5.Size = new System.Drawing.Size(537, 541);
+            this.tabPage5.Size = new System.Drawing.Size(824, 551);
             this.tabPage5.TabIndex = 1;
             this.tabPage5.Text = "Storico";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -563,21 +568,23 @@
             this.listViewHistory.Location = new System.Drawing.Point(0, 0);
             this.listViewHistory.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.listViewHistory.Name = "listViewHistory";
-            this.listViewHistory.Size = new System.Drawing.Size(543, 548);
+            this.listViewHistory.Size = new System.Drawing.Size(820, 548);
             this.listViewHistory.TabIndex = 0;
             this.listViewHistory.UseCompatibleStateImageBehavior = false;
             this.listViewHistory.View = System.Windows.Forms.View.List;
             // 
             // Logoutbtn
             // 
+            this.Logoutbtn.BackColor = System.Drawing.Color.Red;
             this.Logoutbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Logoutbtn.Location = new System.Drawing.Point(1131, 30);
+            this.Logoutbtn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Logoutbtn.Location = new System.Drawing.Point(1422, 37);
             this.Logoutbtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Logoutbtn.Name = "Logoutbtn";
             this.Logoutbtn.Size = new System.Drawing.Size(123, 35);
             this.Logoutbtn.TabIndex = 9;
             this.Logoutbtn.Text = "Logout";
-            this.Logoutbtn.UseVisualStyleBackColor = true;
+            this.Logoutbtn.UseVisualStyleBackColor = false;
             this.Logoutbtn.Click += new System.EventHandler(this.Logoutbtn_Click);
             // 
             // mySqlCommand1
@@ -591,7 +598,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1265, 666);
+            this.ClientSize = new System.Drawing.Size(1584, 721);
             this.Controls.Add(this.Logoutbtn);
             this.Controls.Add(this.tabControl2);
             this.Controls.Add(this.tabControl1);
